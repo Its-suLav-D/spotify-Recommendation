@@ -26,8 +26,8 @@ client_id = 'e92a0d662da14fef8b547c2398c94b3e'
 client_secret = '5beccf7349df40adb02bab1d51fe2a1c'
 
 # Load the cosine similarity matrix
-similarity = pickle.load(open('cosine_similarities.pkl','rb'))
-new_df = pickle.load(open('new_df.pkl','rb'))
+similarity = pickle.load(open('sim.pkl','rb'))
+new_df = pickle.load(open('frame.pkl','rb'))
 
 
 display_tuple = [ ]
