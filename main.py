@@ -22,12 +22,11 @@ src = 'https://open.spotify.com/embed/playlist'
 
 token_auth='BQA7ruNgdN-k8i13WXI2NV8F7MehddfswP67TEvd1kx0L7xzLJWRGQIXRFWWQLKbQ-AGuNkRZGeJBh2GDEG3ooSrkAGTBNoBCca3XRmWqSHP4ymyRNjP7RXPZ-sPL8_YuxsPr3-CGr3q4GHSlHEjetBXrU4pXy93t5zcrP8jbI8RCzXltVfGGc0u9B8otOkMpiFKOnbMprgPN3dukA'
 
-client_id = 'e92a0d662da14fef8b547c2398c94b3e'
-client_secret = '5beccf7349df40adb02bab1d51fe2a1c'
+
 
 # Load the cosine similarity matrix
-similarity = pickle.load(open('sim.pkl','rb'))
-new_df = pickle.load(open('frame.pkl','rb'))
+similarity = None 
+new_df = None 
 
 
 display_tuple = [ ]
